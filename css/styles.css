@@ -1,0 +1,266 @@
+@font-face {
+  font-family: "mainFirstFont";
+  src: url("../fonts/Poppins-ExtraLight.ttf") format("truetype");
+}
+
+body
+{
+	font-family: "mainFirstFont";
+	background-color: #E5E5E5;
+}
+
+hr
+{
+	margin-top: 5px;
+}
+
+.box-shadow
+{
+    box-shadow: 2px 2px 4px 1px #969696;
+  	-webkit-box-shadow: 2px 2px 4px 1px #969696;
+}
+
+.navbar_box-shadow
+{
+    box-shadow: 0px 2px 8px 1px #969696;
+  	-webkit-box-shadow: 0px 2px 8px 1px #969696;
+}
+
+.header_space
+{
+	height: 3.6em;
+}
+
+.footer_space
+{
+	height: 2.5em;
+}
+
+.login_box
+{
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+.newuser_loginbox
+{
+	height: 38px;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  /*background: #f1f1f1;*/
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/*-- HOME PAGE -----------------------------------------*/
+
+.login_btn
+{
+	border-radius: 0px 5px 5px 0px;
+}
+
+.username_login_input
+{
+	border-radius: 5px 0px 0px 5px;
+}
+
+.password_login
+{
+	border-radius: 0px;
+}
+
+.password_login_input
+{
+	border-radius: 0px;
+}
+
+.sign-up_button
+{
+	margin-top: 4.5em;
+	margin-right: 0.75em;
+	margin-left: 0.75em;
+}
+
+.home_img
+{
+	border-radius: 5px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+/*-- GENERAL PAGE -----------------------------------------*/
+
+.page_title_space
+{
+	margin-top: 2em;
+}
+
+.page_title
+{
+	text-align: center;
+	font-weight: bold;
+}
+
+/*-- SIGNUP PAGE -----------------------------------------*/
+
+.sign-up_content_box
+{
+	background-color: white;
+	border-radius: 5px;
+	height: auto;
+}
+
+/*-- DASHBOARD PAGE -----------------------------------------*/
+
+.dashboard_buttons
+{
+	border-radius: 5px;
+	background-color: white;
+}
+.dashboard_content_primary
+{
+	border-radius: 5px;
+	background-color: white;
+	height: 450px;
+}
+
+.dashboard_content_reclist
+{
+	height: 390px;
+	overflow:auto;
+}
+
+.new_request_btn
+{
+	border-radius: 5px 5px 0px 0px;
+}
+
+.rec_card_content
+{
+	font-size: 0.75em;
+}
+
+.dashboard_content_secondary
+{
+	border-radius: 5px;
+	background-color: white;
+	height: auto;
+	padding-bottom: 17px;
+}
+
+.card_holder
+{
+	overflow:auto;
+	height: 295px;
+}
+
+.card_content
+{
+	font-size: 0.75em;
+}
+
+/*-- MANAGEMENT DASHBOARD -----------------------------------*/
+
+.manage_box
+{
+	border-radius: 5px;
+	height: auto;
+	background-color: white;
+}
+
+.manage_box_complist
+{
+	height: 220px;
+	overflow:auto;
+	font-size: 0.75em;
+}
+
+.manage_box_userlist
+{
+	height: 200px;
+	overflow:auto;
+	font-size: 0.75em;
+}
+
+.manage_box_feedback
+{
+	height: 185px;
+	overflow:auto;
+	font-size: 0.75em;
+}
+
+/*-- RECOMMENDATIONS PAGE -----------------------------------*/
+
+/*-- IN QUESTIONS & RECOMMENDATIONS ---*/
+.returndb_button
+{
+	margin-top: 4.5em;
+	margin-right: 0.75em;
+	margin-left: 0.75em;
+}
+/*-------------------------------------*/
+
+.recommends_content_primary
+{
+	border-radius: 5px;
+	background-color: white;
+	height: 450px;
+}
+
+.buildcomponents_list
+{
+	height: 315px;
+	font-size: 0.85em;
+	overflow: auto;
+}
+
+.recommends_content_questions
+{
+	border-radius: 5px;
+	background-color: white;
+	height: auto;
+}
+
+.recommends_content_secondary
+{
+	border-radius: 5px;
+	background-color: white;
+	height: 380px;
+}
+
+.instruct_list
+{
+	overflow: auto;
+	font-size: 0.8em;
+	height: 295px;
+}
+
+/*-- QUESTIONS PAGE --------------------------------------*/
+
+.question_box
+{
+	border-radius: 5px;
+	background-color: white;
+	height: 410px;
+}
+
+.question_box_content
+{
+	height: auto;
+	font-size: 0.75em;
+}
