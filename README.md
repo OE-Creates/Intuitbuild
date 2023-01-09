@@ -1,2 +1,2 @@
 # Intuitbuild
-PC Part Picker Website
+PC Part Recommendation Website
